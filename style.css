@@ -1,0 +1,807 @@
+/* general styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    color: #111111;
+    background-color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+    z-index: -1000000000;
+}
+
+
+
+.mrchris{
+    padding: 0 20px;
+    background-color: #5626C4;
+    min-height: 100vh;
+}
+
+
+.container{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 114rem;
+
+}
+
+
+.rectangle{
+    height: 13px;
+
+}
+
+/* header section */
+.header-item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+
+.header-text{
+    font-size: 12rem;
+    color: #ffffff;
+    text-transform: lowercase;
+}
+
+.header-text h1{
+    color: #FACD3D;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 20px 0 0;
+}
+
+
+.header-image, .contact-us-image{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow-box, .yellow-box3{
+    width: 473px;
+    height: 492px;
+    background-color: #FACD3D;
+    transform: rotate(45deg)  ;
+}
+
+
+.header-image img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 497px;
+    display: block;
+
+}
+
+
+.white-rectangle{
+    height: 96px;
+    background-color: white;
+    margin: 0 auto;
+    width: 13px;
+
+}
+
+
+/* about section */
+
+
+.about-us{
+    margin-bottom: 5rem;
+}
+
+
+
+.about-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-left{
+    flex: 1;
+    padding: 4rem;
+    align-self: end;
+}
+
+
+.about-paragraph{
+    margin-bottom: 2rem;
+}
+
+
+.read-more{
+    color:  #5626C4;
+    padding: 5px 0;
+}
+
+
+.purple-rectangle{
+    background-color:  #5626C4;
+    width: 50px;
+    
+} 
+
+
+.about-right{
+    flex: 1;
+}
+
+
+.black-box{
+    width: 473px;
+    height: 473px;
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    margin-bottom: 40px;
+}
+
+
+.yellow-rectangle{
+    background-color: #FACD3D;
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+
+.about-header, .approach-header{
+    color: white;
+    font-size: 3rem;
+}
+
+
+.about-strategy{
+    font-size: 3rem;
+}
+
+
+/* holistic section */
+
+
+.holistic{
+    background-color: #181818;
+    color: white;
+    position: relative;
+    z-index: -2;
+}
+
+
+.holistic-item{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5rem;
+    position: relative;
+    
+}
+
+
+.holistic-left{
+    width: 20%;
+}
+
+
+img.black{
+    width: 216px;
+    display: block;
+    margin-bottom: 2rem ;
+}
+
+
+.holistic-left h3{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.holistic-left p{
+    
+    font-size: 1.5rem;
+    color: #FACD3D;
+}
+
+
+.holistic-middle{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%)
+}
+
+
+
+.holistic-middle .yellow-box{
+    width: 325px;
+    height: 350px;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%) rotate(45deg);
+}
+
+
+
+.holistic-middle img{
+    height: 385px;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+
+.holistic-right{
+    width: 30%;
+}
+
+
+.holistic-right h5{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+
+.beans{
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+
+.purple-rectangle2{
+    margin-right: 0.5rem;
+    height: 96px;
+    background-color: #5626C4;
+    width: 38px;
+
+}
+
+.beans p{
+    font-style: italic;
+}
+
+
+img.cube{
+    width: 235px;
+}
+
+
+/* approach */
+
+
+.approach{
+    padding: 20px;
+}
+
+
+.approach-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.approach-left{
+    flex: 1;
+}
+
+.purple-box{
+    width: 473px;
+    height: 300px;
+    background-color: #5626C4;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -4rem;
+    margin-bottom: 2rem;
+}
+
+.approach-header{
+
+}
+
+.approach-left h2{
+    font-size: 2rem;
+    width: 90%;
+    
+}
+
+.approach-right{
+    flex: 1;
+    align-self: end;
+}
+
+.approach-right p{
+    width: 80%;
+
+}
+
+
+/* research-section  */
+
+
+#svg-ace8, #svg-49f0, #svg-38f9{
+    width: 48px !important;
+}
+
+.research{
+background-color: #FACD3D;
+min-height: 30vh;
+}
+
+
+.research-item{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    height: 100%;
+    padding: 50px 0;
+}
+
+
+
+.research-middle{
+    margin: 0 40px;
+}
+
+
+.research h4{
+    margin: 15px 0;
+    font-weight: 400;
+}
+
+
+
+/* What we do section */
+
+
+.whatwedo{
+    padding: 20px 60px;
+
+}
+
+
+.container-whatwedo{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.whatwedoitem{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.whatwedo-left{
+    position: relative;
+}
+
+
+.yellow-box-1{
+    background-color: #FACD3D;
+    width: 545px;
+    display: flex;
+    padding: 30px 20px 30px 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -60px;
+    z-index: 2;
+    position: relative;
+    
+}
+
+
+.purple-rectangle3{
+    width: 13px;
+    height: 65px;
+    background-color: #5626C4;
+    justify-content: start;
+    margin-right: 12px;
+}
+
+
+.whatwedo-left p{
+    font-size: 0.8rem;
+    font-style: italic;
+    font-weight: 300;
+    width: 60%;
+}
+
+
+.whatwedo-left img{
+    width: 721px;
+    margin-top: -50px;
+    z-index: 1;
+    position: relative;
+}
+
+
+.whatwedo-right{
+    margin-left: 30px;
+}
+
+
+
+.whatwedo-right img{
+    margin-left: 90px;
+    margin-top: 10px;
+    height: 314px;
+}
+
+
+
+
+.whatwedo-right h4{
+    color: #FACD3D;
+    margin: 90px 0 20px 0;
+    font-size: 1.5rem;
+}
+
+
+.whatwedo-right p{
+    font-weight: 500;
+    font-size: 40px;
+    width: 60%;
+}
+
+
+/* work section */
+
+
+.work{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+}
+
+
+.black-work{
+    flex: 1;
+    background-color: #181818;
+}
+
+
+.black-work-item{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    padding-left: 40px;
+}
+
+
+.black-work-item h4{
+    font-size: 2.5rem;
+
+}
+
+
+.black-work-item p{
+    margin: 20px 0 ;
+}
+
+
+.purple-rectangle-4{
+    width: 80px;
+    height: 15px;
+    background-color: #5626C4;
+}
+
+
+.test{
+    flex: 1;
+    background-color: #FACD3D;
+
+}
+
+
+.test-item{
+    color: #181818;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    padding-left: 40px;
+}
+
+
+.test-item h4{
+    font-size: 2.5rem;
+}
+
+
+.test-item p{
+    margin: 20px 0 ;
+}
+
+
+
+/* contact us section */
+
+
+.contact-us{
+    background-color: #5626C4;
+    min-height: 100vh;
+    padding: 54px 20px;
+}
+
+
+
+.contact-container{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+
+.contact-us-item{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+
+.contact-us-left{
+    flex: 1;
+    margin-left: 40px;
+}
+
+
+#contact-us-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+
+#contact-us-image img{
+    width: 500px;
+}
+
+.yellow-box3{
+    width: 273px;
+    height: 292px;
+    background-color: #FACD3D;
+    transform: rotate(45deg)  ;
+    z-index: 0;
+}
+
+
+.contact-us-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contact-us-right p{
+    align-self: end;
+    font-size: 2.5rem;
+}
+
+
+.contact-us-left img{
+    width: 280px;
+    z-index: 1;
+
+}
+
+
+.new-york{
+
+}
+
+
+.new-york h4{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+
+.new-york h5{
+    font-size: 1.2rem;
+    color: #FACD3D;
+}
+
+
+.new-york p{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+
+.new-york h6{
+
+}
+
+
+.media{
+    color: #FACD3D;
+    font-size: 2rem;
+
+}
+
+
+
+.media i{
+    margin-right: 8px;
+}
+
+.pointless{
+    text-align: right;
+
+}
+
+/* footer section */
+
+
+.footer{
+    background-color: #333333;
+    width: 100vw;
+}
+
+
+
+.footer p{
+    color: white ;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+
+.footer a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
